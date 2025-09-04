@@ -3,13 +3,13 @@ public class TesteLivroDeNotas{
         String disciplina1 = "POO";
         String disciplina2 = "PEM";
         LivroDeNotas livro1 =
-                new LivroDeNotas();
+                new LivroDeNotas(disciplina1);
         //livro1.disciplina = disciplina1;
-        livro1.setDisciplina(disciplina1);
+        //livro1.setDisciplina(disciplina1);
         livro1.exibirMensagem();
         LivroDeNotas livro2 =
-            new LivroDeNotas();
-        livro2.setDisciplina(disciplina2);
+                new LivroDeNotas(disciplina2);
+        //livro2.setDisciplina(disciplina2);
         System.out.println(livro2.getDisciplina());
         livro2.exibirMensagem();
     }
